@@ -1,0 +1,1 @@
+This is my first attempt at making a chrome extension. It's a simple extension which displays the current date in dd/mm/yyyy format. There is no styling as of yet. Improvements: styling, possibly time coming soon.
