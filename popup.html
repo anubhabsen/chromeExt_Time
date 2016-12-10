@@ -1,27 +1,9 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
     <title>Display Date</title>
-    <style type="text/css">
-    	body {
-    		background-color: #FFA500;
-    	}
-    	#date, #time {
-    		text-align: center;
-        display: flex;
-        margin: auto;
-        width: 40%;
-    	}
-      #dates, #month, #year, #hours, #minutes, #seconds {
-        background-color: black;
-        color: white;
-        margin: auto;
-        margin-top: 1em;
-        padding: 2px;
-        border-radius: 5%;
-        font-size: 40px;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script src="popup.js"></script>
   </head>
   <body>
@@ -32,7 +14,9 @@
     </div>
     <div id="time">
       <div id="hours"></div>
+      <div id="colon">:</div>
       <div id="minutes"></div>
+      <div id="colon">:</div>
       <div id="seconds"></div>
     </div>
   </body>
