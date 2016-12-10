@@ -2,11 +2,39 @@
 <html>
   <head>
     <title>Display Date</title>
+    <style type="text/css">
+    	body {
+    		background-color: #FFA500;
+    	}
+    	#date, #time {
+    		text-align: center;
+        display: flex;
+        width: 33%;
+        margin-left: 33%;
+        margin-right: 33%;
+    	}
+      #dates, #month, #year, #hours, #minutes, #seconds {
+        background-color: black;
+        color: white;
+        margin: 1em;
+        padding: 2px;
+        border-radius: 5%;
+        font-size: 40px;
+      }
+    </style>
     <script src="popup.js"></script>
   </head>
   <body>
-    <p>Today's date is:</p>
-    <div id="date""></div>
+    <div id="date">
+      <div id="dates"></div>
+      <div id="month"></div>
+      <div id="year"></div>
+    </div>
+    <div id="time">
+      <div id="hours"></div>
+      <div id="minutes"></div>
+      <div id="seconds"></div>
+    </div>
   </body>
 </html>
 
